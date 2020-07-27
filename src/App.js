@@ -17,9 +17,10 @@ function App() {
 
           return (
             <div>
-              {
+              {/* {
                 index === 0 && (<BannerMain url={url} videoTitle={titulo} videoDescription={titulo} />)
-              }
+              } */}
+              <BannerMain url={url} videoTitle={titulo} videoDescription={titulo} />
               <Carousel ignoreFirstVideo={index === 0 ? true : false} category={data} />
             </div>
           )
