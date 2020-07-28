@@ -20,8 +20,9 @@ function App() {
               {/* {
                 index === 0 && (<BannerMain url={url} videoTitle={titulo} videoDescription={titulo} />)
               } */}
+              {/* <Carousel ignoreFirstVideo={index === 0 ? true : false} category={data} /> */}
               <BannerMain url={url} videoTitle={titulo} videoDescription={titulo} />
-              <Carousel ignoreFirstVideo={index === 0 ? true : false} category={data} />
+              <Carousel ignoreFirstVideo={true} category={data} />
             </div>
           )
         })
