@@ -15,14 +15,14 @@ function Home() {
             const { url, titulo } = data.videos[0];
 
             return (
-              <div>
+              <>
                 {/* {
                   index === 0 && (<BannerMain url={url} videoTitle={titulo} videoDescription={titulo} />)
                 } */}
                 {/* <Carousel ignoreFirstVideo={index === 0 ? true : false} category={data} /> */}
                 <BannerMain url={url} videoTitle={titulo} videoDescription={titulo} />
                 <Carousel ignoreFirstVideo={true} category={data} />
-              </div>
+              </>
             )
           })
         }

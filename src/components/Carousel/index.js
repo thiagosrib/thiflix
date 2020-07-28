@@ -1,6 +1,8 @@
 import React from 'react';
+import './styles.css';
 import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
+// import Slider, { SliderItem } from './components/Slider';
 
 function VideoCardGroup({
   ignoreFirstVideo,
